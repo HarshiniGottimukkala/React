@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .divisions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+footer .divisions .division{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .netflix{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+footer .netflix button{
+    background-color: rgb(24, 23, 23);
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}

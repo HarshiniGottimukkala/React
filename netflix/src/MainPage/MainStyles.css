@@ -1,0 +1,470 @@
+/*****************Hero Section****************/
+
+.background {
+    width: 100%;
+    line-height: 0;
+}
+
+.background img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.background .hero {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.mailbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mailbutton input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 350px;
+    padding: 14px 20px;
+    caret-color: white;
+    font-size: 15px;
+}
+
+.mailbutton input::placeholder {
+    color: aliceblue;
+}
+
+.mailbutton .getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E50914;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mailbutton .getstarted button {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.mailbutton .getstarted img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+/*****************Watch Section****************/
+
+.watch {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px ;
+    gap: 20px;
+}
+
+.watch .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.watch .content h2 {
+    font-size: 50px;
+}
+
+.watch .content p {
+    font-size: 25px;
+}
+
+.watch .video{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.watch video{
+    width: 400px;
+    height:400px;
+    position: absolute;
+    right: 150px;
+}
+
+.watch img{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    z-index: 999999;
+}
+
+/*****************Download Section****************/
+
+.download {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 250px;
+}
+
+.download .image {
+    width: 50%;
+    position: relative;
+}
+
+
+.download .image img {
+    width: 210px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image .smallcontent {
+    width: 100%;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: -17px;
+    background-color: black;
+}
+
+.image .smallcontent #image1 {
+    width: 50px;
+    height: 70px;
+}
+.image .smallcontent #image2 {
+    width: 50px;
+    height: 50px;
+}
+
+.image .smallcontent .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.smallcontent .text h4{
+    font-size: 14px;
+}
+.smallcontent .text p{
+    font-size: 12px;
+    color: rgb(58, 58, 244);
+}
+
+
+.download .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download .content h2 {
+    font-size: 50px;
+}
+
+.download .content p {
+    font-size: 25px;
+}
+
+/*****************Stream Section****************/
+
+
+.stream {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px ;
+    gap: 20px;
+}
+
+.stream .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stream .content h2 {
+    font-size: 50px;
+}
+
+.stream .content p {
+    font-size: 25px;
+}
+
+.stream .backgroundvideo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.stream .backgroundvideo img{
+    width: 450px;
+    height: 350px;
+    z-index: 99999;
+}
+.stream .backgroundvideo video{
+    width: 290px;
+    height:350px;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+
+
+/*****************Trailers Section****************/
+
+.trailers{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    gap: 20px;
+}
+
+.playlist{
+    width: 50%;
+}
+
+.playlist img{
+    width: 150px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 5px;    
+}
+
+.selectedimage {
+    transition: all 0.5s;
+    width: 100%;
+  }
+  
+  .selectedimage:hover {
+    transform: scale(1.05);
+    transform-origin:top;
+  }
+
+
+.show{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.show video{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+/*****************Profile Section****************/
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 100px;
+}
+
+.containet .picture{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 450px;
+    height: 350px;
+}
+
+.container .context{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .context h2 {
+    font-size: 50px;
+}
+
+.container .context p {
+    font-size: 25px;
+}
+
+/*****************FAQ Section****************/
+
+.section{
+    width: 100%;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section h1{
+    font-size: 50px;
+}
+
+
+.faq .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    gap: 5px;
+
+}
+
+.item .wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.wrapper .questionwrap{
+    width: 100%;
+    padding: 30px;
+    background-color: #191919;
+    cursor: pointer;
+
+}
+.questionwrap:hover{
+    background-color: #3a3939;
+}
+.wrapper .answerwrap{
+    width: 100%;
+    padding: 30px;
+    background-color: #191919;
+}
+
+.wrapper .answerwraphide{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.wrapper .question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .question h2{
+    font-weight: 100;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.show {
+    width: 100%;
+    height: auto;
+    max-height: 99999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0); 
+}
+
+.wrapper .answer p{
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.section .membership{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section .membership p{
+    font-size: 20px;
+}
+

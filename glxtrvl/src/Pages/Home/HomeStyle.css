@@ -1,0 +1,275 @@
+/***************************** Hero Section *************************/
+
+.hero video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero .content {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 0 30px;
+}
+
+.hero .content h1 {
+    font-size: 50px;
+}
+
+
+.hero .content .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.hero .content .buttons a {
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+
+/***************************** About Section *************************/
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 50px 80px;
+}
+
+.about img {
+    width: 500px;
+    height: 400px;
+}
+
+.about .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.about .content p {
+    line-height: 30px;
+}
+
+@media(max-width:1250px) {
+    .about {
+        gap: 30px;
+        padding: 50px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about .content {
+        align-items: center;
+    }
+
+    .about .content p {
+        line-height: 25px;
+    }
+
+}
+
+
+/***************************** Services Section *************************/
+
+.services {
+    width: 100%;
+    padding: 50px;
+}
+
+.services img {
+    width: 100%;
+    height: 400px;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+/***************************** CallToAction Section *************************/
+
+.calltoaction {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.calltoaction h1 {
+    font-size: 40px;
+}
+
+.calltoaction button {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+@media(max-width : 850px) {
+    .calltoaction {
+        padding: 50px 30px;
+    }
+
+    .calltoaction h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width : 650px) {
+
+    .calltoaction h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width : 500px) {
+
+    .calltoaction h1 {
+        font-size: 20px;
+    }
+}
+
+/***************************** Modal Section *************************/
+
+.overlay {
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay .modal {
+    position: relative;
+    width: 550px;
+    height: 250px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.overlay .modal .cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media(max-width:700px) {
+    .overlay .modal {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media(max-width:550px) {
+    .overlay .modal {
+        width: 350px;
+        height: 250px;
+        padding: 30px;
+    }
+}
+
+
+/***************************** Faq Section *************************/
+
+.faq {
+    width: 100%;
+    padding: 50px 150px;
+
+}
+
+.faq .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.faq .item .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #191919;
+}
+
+.faq .item .question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.show {
+    height: auto;
+    max-height: 99999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+
+
+@media(max-width:500px) {
+
+    .faq {
+        padding: 50px 80px;
+    }
+}

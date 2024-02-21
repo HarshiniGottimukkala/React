@@ -1,0 +1,13 @@
+.routes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 40px;    
+}
+
+.routes .linkrouter{
+    color: white;
+}
+    
+
